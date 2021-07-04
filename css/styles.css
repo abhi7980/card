@@ -1,0 +1,121 @@
+
+body{
+ text-align: center;
+ background-color: hsl(233, 47%, 7%);
+ overflow: auto;
+}
+
+ h1{
+   color: hsl(0, 0%, 100%);
+   width: 65%;
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+   font-size: 2.5vw
+ }
+
+
+ p{
+   color: hsla(0, 0%, 100%, 0.75);
+   font-size: 0.9375vw;
+   font-family: 'Lexend Deca', sans-serif;
+   font-weight: 400;
+ }
+ img {
+    max-width:100%;
+    height: auto;
+}
+
+
+.insight{
+  color: hsl(277, 64%, 61%);
+}
+.card{
+ width: 70%;
+ background-color: hsl(244, 38%, 16%);
+ margin: auto;
+ margin-top: 120px;
+ border-radius: 10px;
+ position: relative;
+}
+
+
+.left{
+  margin-top: auto;
+  margin-bottom:auto;
+  border-radius: 10px 0 0 10px;
+  width: 60%;
+  position: absolute;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+.right{
+
+  width: 50%;
+  margin-left:50%;
+  border-radius:0 10px 10px 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.right img{
+  flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.desc{
+  color: hsla(0, 0%, 100%, 0.75);
+ font-size: 0.9375vw;
+  width: 55%;
+  padding-top: 5%;
+  line-height: 2;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+
+.head1{
+
+  color:hsl(0, 0%, 100%);
+  line-height: .5;
+  margin-top: 4%;
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+}
+.head2{
+  color:hsl(0, 0%, 100%);
+  line-height: .5;
+  position: absolute;
+  margin-left: 22.5%;
+  margin-top: 4%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+}
+.head3{
+  color:hsl(0, 0%, 100%);
+  line-height: .5;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 4%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+}
+
+.image{
+  filter: grayscale(100%) brightness(45%) sepia(65%) hue-rotate(235deg) saturate(700%) contrast(0.8);
+}
+
+  .attribution { font-size: 11px; text-align: center; color: hsl(0, 0%, 100%)}
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+
+.background{
+  width:1440px;
+/* border-style: solid;*/
+}
